@@ -1,3 +1,5 @@
+using Laba3.ClassLibrary;
+
 namespace Laba3.TestProject
 {
     public class Tests
@@ -8,9 +10,16 @@ namespace Laba3.TestProject
         }
 
         [Test]
-        public void Test1()
+        public void AddTestSquare()
         {
-            Assert.Pass();
+            const double r = 2;
+            const double R = 4;
+            const double l = 3;
+            const double expected = 56.548667764616276;
+
+            double result = new ClassSquare().S(r, R, l);
+            Assert.AreEqual(expected, result);
+
         }
     }
 }
