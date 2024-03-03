@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3.ConsoleApp", "Laba3.ConsoleApp\Laba3.ConsoleApp.csproj", "{6F8B173B-E117-41B1-BB90-B110A83DC409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3.ClassLibrary", "Laba3.ClassLibrary\Laba3.ClassLibrary.csproj", "{CAECCA34-40FA-45BD-A028-DF2B73477166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3.TestProject", "Laba3.TestProject\Laba3.TestProject.csproj", "{29271318-F61F-45A4-B494-D582694E2122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6F8B173B-E117-41B1-BB90-B110A83DC409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F8B173B-E117-41B1-BB90-B110A83DC409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F8B173B-E117-41B1-BB90-B110A83DC409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAECCA34-40FA-45BD-A028-DF2B73477166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAECCA34-40FA-45BD-A028-DF2B73477166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAECCA34-40FA-45BD-A028-DF2B73477166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAECCA34-40FA-45BD-A028-DF2B73477166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29271318-F61F-45A4-B494-D582694E2122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29271318-F61F-45A4-B494-D582694E2122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29271318-F61F-45A4-B494-D582694E2122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29271318-F61F-45A4-B494-D582694E2122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
