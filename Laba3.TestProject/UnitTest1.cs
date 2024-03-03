@@ -21,5 +21,17 @@ namespace Laba3.TestProject
             Assert.AreEqual(expected, result);
 
         }
+        [Test]
+        public void AddTestSquare_2()
+        {
+            const double r = 2;
+            const double R = -4;
+            const double l = 3;
+            const double expected = 56.548667764616276;
+
+            ClassSquare result = new ClassSquare();
+            Assert.Throws<ArgumentException>(() => result.S(r, R, l));
+
+        }
     }
 }
