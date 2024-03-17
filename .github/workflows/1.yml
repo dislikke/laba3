@@ -19,4 +19,4 @@ jobs:
       run: dotnet restore
 
     - name: Test
-      run: dotnet test Laba3.TestProject\UnitTest1.Tests
+      run: dotnet test D:\учеба\технология разработки программного обеспечения\3\laba3\Laba3.TestProject\bin\Debug\net6.0
