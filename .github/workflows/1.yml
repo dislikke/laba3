@@ -18,8 +18,5 @@ jobs:
     - name: Restore Dependencies
       run: dotnet restore
 
-    - name: Build
-      run: dotnet build
-
     - name: Test
-      run: dotnet test TrpoLab3.Tests
+      run: dotnet test Laba3.Tests
