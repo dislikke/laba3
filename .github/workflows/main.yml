@@ -21,4 +21,4 @@ jobs:
     - name: Test
       run: dotnet test Laba3.TestProject
     - name: Publish
-      run: dotnet publish Laba3 -c Release -r win-x64
+      run: dotnet publish laba3 -c Release -r win-x64
