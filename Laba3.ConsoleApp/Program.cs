@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Laba3.ClassLibrary;
 
-Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Введите длину радиуса меньшего основания усеченного конуса");
 double r = Convert.ToDouble(Console.ReadLine());
