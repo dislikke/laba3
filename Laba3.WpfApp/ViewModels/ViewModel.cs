@@ -13,7 +13,12 @@ namespace Laba3.WpfApp.ViewModels
 {
     public class ViewModel: INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
 
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
 
         private double _number1;
         public double Number1
@@ -48,17 +53,6 @@ namespace Laba3.WpfApp.ViewModels
             }
         }
 
-
-
-
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
 
 
 
