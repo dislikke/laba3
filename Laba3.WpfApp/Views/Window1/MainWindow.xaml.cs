@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Laba3.WpfApp.Models;
+using Laba3.WpfApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,8 @@ namespace Laba3.WpfApp
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new ViewModel();
         }
     }
 }

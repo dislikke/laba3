@@ -15,12 +15,13 @@
             <ColumnDefinition Width="400*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="1" Height="350" Width="350" Source="/image.png" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Image Grid.Column="1" Height="350" Width="350" Source="/Views/Window1/image.png" VerticalAlignment="Center" HorizontalAlignment="Left"/>
 
-        <TextBox Grid.Column="0" Text="{Binding Number1, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,2,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
-        <TextBox Grid.Column="0" Text="{Binding Number2, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,88,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
-        <TextBox Grid.Column="0" Text="{Binding Number3, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,174,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
+        <TextBox Grid.Column="0" Text="{Binding Number1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,2,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
+        <TextBox Grid.Column="0" Text="{Binding Number2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,88,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
+        <TextBox Grid.Column="0" Text="{Binding Number3, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="176" Height="20" Margin="59,174,0,0" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
         <TextBox Grid.Column="0" HorizontalAlignment="Left" Margin="59,310,0,0" Text="{Binding Number4, Mode=OneWay}" IsReadOnly="True"  Width="176" Height="20" Background="#3F3F3F" BorderThickness="0,0,0,0" Foreground="#FFF1F1F1" FontFamily="Book Antiqua" FontSize="16" />
+        
         <Label Content="радиус" HorizontalAlignment="Left" Margin="240,187,0,0" VerticalAlignment="Top" FontFamily="Segoe Script" VerticalContentAlignment="Stretch" Foreground="#FFF1F1F1" />
         <Label Content="меньшего основания" HorizontalAlignment="Left" Margin="240,204,0,0" VerticalAlignment="Top" Foreground="#FFF1F1F1" FontFamily="Segoe Script"/>
         <Label Content="большего основания" HorizontalAlignment="Left" Margin="240,248,0,0" VerticalAlignment="Top" Foreground="#FFF1F1F1" FontFamily="Segoe Script" IsEnabled="False"/>

@@ -8,12 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Window1\image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Laba3.ClassLibrary\Laba3.ClassLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
+    <Resource Include="Views\Window1\image.png" />
   </ItemGroup>
 
 </Project>
