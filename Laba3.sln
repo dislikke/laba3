@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba3.ClassLibrary", "Laba3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba3.TestProject", "Laba3.TestProject\Laba3.TestProject.csproj", "{29271318-F61F-45A4-B494-D582694E2122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3.WpfApp", "Laba3.WpfApp\Laba3.WpfApp.csproj", "{0EA5C2B0-D8F6-478C-B2A8-2880761D29C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba3.WpfApp", "Laba3.WpfApp\Laba3.WpfApp.csproj", "{0EA5C2B0-D8F6-478C-B2A8-2880761D29C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3.WebApplication", "Laba3.WebApplication\Laba3.WebApplication.csproj", "{F5334EC3-3FBE-4D10-9E74-D22E4F660CD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0EA5C2B0-D8F6-478C-B2A8-2880761D29C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA5C2B0-D8F6-478C-B2A8-2880761D29C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA5C2B0-D8F6-478C-B2A8-2880761D29C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5334EC3-3FBE-4D10-9E74-D22E4F660CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5334EC3-3FBE-4D10-9E74-D22E4F660CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5334EC3-3FBE-4D10-9E74-D22E4F660CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5334EC3-3FBE-4D10-9E74-D22E4F660CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

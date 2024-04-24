@@ -1,0 +1,21 @@
+﻿@model SquareModel
+
+<form method="post">
+    <label for="UpperRadius">Upper Radius:</label>
+    <input type="number" name="UpperRadius" value="@Model.smallRadius" />
+
+    <label for="LowerRadius">Lower Radius:</label>
+    <input type="number" name="LowerRadius" value="@Model.largeRadius" />
+
+    <label for="Height">Height:</label>
+    <input type="number" name="Height" value="@Model.generatrix" />
+
+    <button type="submit">Calculate Surface Area</button>
+</form>
+
+@if (Model.latSquare != 0)
+{
+    <h2>Surface Area Calculation Result:</h2>
+    <p>The lateral surface area of the truncated cone is: @Model.latSquare</p>
+}
+
