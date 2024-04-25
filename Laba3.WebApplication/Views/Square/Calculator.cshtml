@@ -18,10 +18,14 @@
         <input type="number" step="any" name="generatrix" /><br />
 
         <input type="submit" value="Калькулятор" />
-
     </form>
 
-    <img src="/image.png" width="250" height="250" />
 
+    @if (Model.latSquare >= 0 && Model.smallRadius >= 0 && Model.largeRadius >= 0 && Model.generatrix >= 0)
+    {
+        <p>Площадь боковой поверхности усеченного конуса: @Model.latSquare</p>
+    }
+
+    <img src="/image.png" width="250" height="250" />
 </body>
 </html>
