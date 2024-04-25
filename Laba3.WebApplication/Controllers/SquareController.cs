@@ -9,11 +9,6 @@ namespace Laba3.WebApplication.Controllers
         [HttpGet]
         public IActionResult Index(SquareModel vm)
         {
-            double SmallRadius = vm.smallRadius;
-            double LargeRadius = vm.largeRadius;
-            double Generatrix = vm.generatrix;
-            double LatSquare = new ClassSquare().S(SmallRadius, LargeRadius, Generatrix);
-            vm.latSquare = LatSquare;
             return View(vm);
         }
 
